@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Política</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Alterei para min-height para garantir que a página tenha pelo menos 100% da altura da viewport */
+            text-align: center;
+        }
+
+        .main-content {
+            max-width: 800px; /* Aumentei a largura máxima do conteúdo */
+            margin-top: 20px;
+        }
+
+        .news-item {
+            margin-bottom: 40px; /* Adicionei uma margem inferior maior para separar as notícias */
+        }
+
+        .news-item img {
+            max-width: 100%; /* Garanto que a imagem não ultrapasse a largura do seu contêiner */
+            margin-bottom: 10px; /* Adiciono um espaço inferior após a imagem */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CORRENTES EM DEBATE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="articles.html">Artigos</a></li>
+                <li><a href="categories.html">Categorias</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Bem-vindo ao nosso blog de política!</h2>
+        <p>POLÍTICA E ATUALIDADES DE CORRENTES.</p>
+        <!-- Conteúdo principal da página inicial -->
+        <div class="main-content">
+            <!-- Notícia 1 -->
+            <div class="news-item">
+                <h1>Filiação de Dr. Romão com Júnior Lúcio no PSDB</h1>
+                <img src="filiação Dr. romão.jpg" alt="Descrição da Imagem">
+                <p>Júnior, demais vereadores e lideranças políticas do município, ao lado do Deputado Estadual @dannilogodoy e do Presidente Estadual do PSDB, Fred Loyo, do presidente da Alepe Deputado alvaro Porto formalizaram a união no partido PSDB</p>
+            </div>
+
+            <!-- Notícia 2 -->
+            <div class="news-item">
+                <h1>Secretário de Governo, Edmilson da Bahia participa da apresentação da paixão de Cristo</h1>
+                <img src="edmilson na paixão de cristo.jpg" alt="Descrição da Imagem">
+                <p>Edimilson da Bahia destacou a importância de um evento desse na cidade de grande relevância para os Católicos</p>
+            </div>
+
+            <!-- Notícia 3 -->
+            <div class="news-item">
+                <h1>Adriano e Adriana formalizaram a candidatura a vereador de correntes!</h1>
+                <img src="adriana e adriano.jpg" alt="Descrição da Imagem">
+                <p>Após muitos pedidos, Adriano da Fármacia e Adriana Professora decidiram em conjunto lançarem a candidatura para o cargo de vereador. Em uma entrevista Adriana disse: Agora só vitória!!</p>
+            </div>
+            <!-- Adicione mais notícias conforme necessário -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Blog Correntes em debate. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
